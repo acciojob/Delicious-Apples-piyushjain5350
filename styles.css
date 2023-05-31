@@ -1,1 +1,100 @@
-/* your code here */
+*{
+	margin:0;
+	padding:0;
+	box-size:border-box;
+}
+body{
+	background-color:#00e384;
+}
+/* .photo-main{
+	width:250px;
+	background-color:#b9eb56;
+	display:flex;	
+	
+}
+.photo-main .controls{
+	display:flex;
+	justify-content:space-between;
+}
+
+ */
+.product{
+	display:flex;
+	justify-content:center;
+	margin:100px 0; 
+}
+/*inner div  */
+.product__info{
+	background-color:white;
+	width:50%;
+	text-align:center;
+	padding:30px;
+	border-radius:10px;
+	display:flex;
+	flex-direction:column;
+}
+.product__info .title{
+	padding-left:130px;
+	text-align:left;
+	margin-bottom:40px;
+}
+
+.product__info .title h1{
+	color:#a0a0a0;
+}
+.product__info .title span{
+	color:#b0b0b0;
+	font-size:14px;
+}
+.product__info .price {
+	color:#fe4244;
+	margin-bottom:40px;
+}
+.product__info .price span {
+	font-size:35px;
+}
+.product__info .variant{
+	margin-bottom:30px;
+}
+.product__info .variant h3{
+	color:#a4a4a4;
+	font-size:14px;
+	padding:10px 0;
+	padding-left:35px;
+}
+.product__info .variant ul{
+	display:flex;
+	list-style:none;
+	padding: 10px 0 10px 160px;
+}
+.product__info .variant ul li img{
+	width:35px;
+}
+.bimage{
+	border:1px solid #9d9d9d;
+}
+.product__info .description{
+	text-align:left;
+	padding-left:130px;
+	margin-bottom:30px;
+}
+.product__info .description h3{
+	font-size:14px;
+	color:#a6a6a6;
+	padding-bottom:10px;
+}
+.product__info .description ul{
+	padding-left:50px;
+}
+.product__info .description ul li{
+	font-size:10px;
+}
+.product__info .cart-button button{
+	padding:20px;
+	margin-left:70px;
+	border-radius:8px;
+	background-color:#ff3f40;
+	border:none;
+	color:white;
+	width:150px;
+}
