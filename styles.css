@@ -5,13 +5,13 @@
 }
 body{
 	background-color:#00e384;
-	postition:reletive;
 }
 /* outer div */
 .product__photo{
 	position:absolute;
 	left:150px;
-	top:100px;
+	top:80px;
+	z-index:1000;
 }
 .product__photo .photo-container .photo-main{
 	background-color:#b7ea51;
@@ -28,9 +28,14 @@ body{
 	border-bottom-left-radius:8px;
 	border-bottom-right-radius:8px;
 }
-.icon{
-	display:flex;
-	justify-content:space-between;
+.controls{
+	display: flex;
+    justify-content: space-between;
+}
+.icon-container{
+	color:white;
+	padding:10px;
+	
 }
 .product__photo .photo-album ul{
 	display:flex;
@@ -53,6 +58,9 @@ body{
 	border-radius:10px;
 	display:flex;
 	flex-direction:column;
+	position:absolute;
+	top:50px;
+	left:250px;
 }
 .product__info .title{
 	padding-left:130px;
